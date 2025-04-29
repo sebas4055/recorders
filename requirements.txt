@@ -4,5 +4,10 @@ scipy>=1.4.0
 smbus>=1.1.post2
 spidev>=3.5
 gpiozero>=1.6.0
-# You may need to add the senxor package if it's available on PyPI
-# senxor>=x.x.x
+sort-track>=0.0.8
+
+# IMPORTANT: The senxor package is required but not available on PyPI
+# This is a proprietary package for the MI48 thermal camera
+# You must obtain it from Meridian Innovation and install it manually
+# See README.txt for more information
+# senxor>=1.0.0
