@@ -1,0 +1,8 @@
+numpy>=1.18.0
+opencv-python>=4.2.0
+scipy>=1.4.0
+smbus>=1.1.post2
+spidev>=3.5
+gpiozero>=1.6.0
+# You may need to add the senxor package if it's available on PyPI
+# senxor>=x.x.x
