@@ -76,8 +76,8 @@ USAGE
 Basic usage:
 python ricerecorder.py
 
-With custom parameters:
-python ricerecorder.py --threshold 24 --framerate 10 --min_area 15 --line 40 --record_counts
+With our custom parameters:
+python ricerecorder.py --threshold 20.5 --framerate 15 --min_area 30 --line 30 --record_counts
 
 KEY COMMAND LINE ARGUMENTS
 -------------------------
@@ -125,10 +125,6 @@ Modify tracking parameters (--iou_threshold, --max_age, --min_hits) to balance b
 
 Counting Accuracy:
 Set the --line parameter to position the counting boundary appropriately for your camera setup.
-
-CONTRIBUTING
------------
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 LICENSE
 -------
