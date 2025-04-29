@@ -1,4 +1,4 @@
-RICE THERMAL RECORDER
+REC DETECT
 ====================
 
 A thermal camera-based people counting and tracking system using the MI48 thermal sensor.
