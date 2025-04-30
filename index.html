@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .header-img {
+            width: 100%;
+            height: auto;
+        }
+        .title {
+            font-size: 40px;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+        .clickable {
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='rec.png') }}" class="header-img" alt="Header">
+    <div class="title">WEIGHT ROOM</div>
+    <a href="{{ url_for('weightroom') }}">
+        <img src="{{ url_for('static', filename='weight.png') }}" class="clickable" alt="Go to Weight Room">
+    </a>
+</body>
+</html>
+
